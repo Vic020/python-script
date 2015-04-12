@@ -1,4 +1,16 @@
 # -*- coding:utf-8 -*-
+'''
+Source List:
+    http://pypi.python.org/ 官方源
+    http://pypi.douban.com/ 豆瓣源
+    https://pypi.tuna.tsinghua.edu.cn/ 清华源
+    http://mirrors.aliyun.com/pypi 阿里源
+    http://pypi.pubyun.com/ pubyun源
+
+其他源地址可查看：http://www.pypi-mirrors.org/
+
+@Author : VicYu(http://vicyu.net)
+'''
 from os.path import expanduser
 from platform import system
 from ConfigParser import ConfigParser
