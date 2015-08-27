@@ -8,5 +8,7 @@ If you get help from those scripts,please star this project.If you have more use
 
 [Change pip source](script/change_pip_source.py) - 更换pip工具的源
 
+[Coding every file to picture file](script/EverythingToImage) - 将所有文件编码为图片格式
+
 ##License
     GNU v2
