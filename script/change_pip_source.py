@@ -28,7 +28,7 @@ def modifyPipSource(url, path='~'):
     elif system() == 'Linux':
         path = expanduser(path) + '/.pip/pip.conf'
     else:
-        print 'Sorry, Not known Operation System'
+        print 'Sorry, unsupport Operation System'
 
     # Write setting
     with open(path, 'w') as f:
