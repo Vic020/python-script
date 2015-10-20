@@ -6,14 +6,15 @@ from multiprocessing import Process
 def asyncThread(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
-        thread = Thread(target=func, args=args, kwargs=kwargs) 
+        thread = Thread(target=func, args=args, kwargs=kwargs)
         thread.start()
     return wrapper
+
 
 def asyncProcess(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
-        process = Process(target=func, args=args, kwargs=kwargs) 
+        process = Process(target=func, args=args, kwargs=kwargs)
         process.start()
     return wrapper
 
@@ -29,7 +30,7 @@ def async(method='thread'):
             multi.start()
         return wrapper
     return asyncInner
-    
+
 # @async()
 # # @asyncThread
 # # @asyncProcess
