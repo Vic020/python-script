@@ -12,5 +12,7 @@ If you get help from those scripts,please star this project.If you have more use
 
 [Coding every file to picture file](script/EverythingToImage) - 将所有文件编码为图片格式
 
+[async decorator](script/async.py) - 异步装饰器，支持线程和进程异步，很简单的实现方法，但很有用。
+
 ##License
     GNU v2
